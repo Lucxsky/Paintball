@@ -1,19 +1,19 @@
 
 /**
- * Write a description of class Paintball here.
+ * Write a description of class Spielfelder here.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Paintball
+public class Spielfelder
 {
     // instance variables - replace the example below with your own
     private int x;
 
     /**
-     * Constructor for objects of class Paintball
+     * Constructor for objects of class Spielfelder
      */
-    public Paintball()
+    public Spielfelder()
     {
         // initialise instance variables
         x = 0;
