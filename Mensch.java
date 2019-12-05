@@ -1,3 +1,4 @@
+
 public abstract class Mensch
 {
     private int anzahl;
