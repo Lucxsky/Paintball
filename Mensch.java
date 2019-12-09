@@ -1,7 +1,6 @@
 
 public abstract class Mensch
 {
-    private int anzahl;
     private int alter;
     private String vorname;
     private String nachname;
@@ -11,20 +10,9 @@ public abstract class Mensch
     public Mensch(int anzahl, int alter ,String vorname , String nachname)
     {
         // initialise instance variables
-        setAnzahl(anzahl);
         setAlter(alter);
         setVorname(vorname);
         setNachname(nachname);
-    }
-
-    private void setAnzahl(int anzahl)
-    {
-        this.anzahl = anzahl;
-    }
-    
-    private int getAnzahl()
-    {
-        return this.anzahl;
     }
     
     private void setAlter(int alter)
